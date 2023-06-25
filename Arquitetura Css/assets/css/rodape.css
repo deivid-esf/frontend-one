@@ -1,0 +1,15 @@
+.rodape {
+  background-color: var(--cinza);
+  padding: 2rem;
+}
+
+.rodape p {
+  color: var(--branco);
+  text-align: right;
+}
+
+@media screen and (width < 768px) {
+  .rodape p {
+    text-align: center;
+  }
+}

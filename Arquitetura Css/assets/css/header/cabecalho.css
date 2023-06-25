@@ -1,0 +1,23 @@
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 2rem;
+
+  background-color: var(--cinza-claro);
+}
+
+@media screen and (min-width: 0) {
+  .topo {
+    justify-content: center;
+    padding: 0 1rem;
+  }
+}
+
+@media screen and (width > 768px) {
+  .topo {
+    justify-content: space-between;
+    padding: 0 5rem;
+  }
+}

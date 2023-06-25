@@ -1,0 +1,16 @@
+.sobre__subtitulo {
+  color: var(--cinza);
+  font-weight: 100;
+}
+
+@media screen and (width > 0) {
+  .sobre__subtitulo {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (width > 768px) {
+  .sobre__subtitulo {
+    font-size: 1.75rem;
+  }
+}

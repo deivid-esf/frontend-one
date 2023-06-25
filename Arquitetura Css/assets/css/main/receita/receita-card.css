@@ -1,0 +1,29 @@
+.receita {
+  background-color: var(--bg-card-receita);
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+@media screen and (width > 0) {
+  .receita {
+    margin-bottom: 1rem;
+    width: calc(100% - 2rem);
+  }
+}
+
+
+@media screen and (width > 768px) {
+  .receita {
+    width: calc((100%/2) - 5rem);
+
+  }
+}
+
+@media screen and (width > 992px) {
+  .receita {
+    margin: 0 5rem 5rem 0;
+    width: calc((100%/3) - 5rem);
+  }
+}

@@ -1,0 +1,18 @@
+.pessoas {
+  display: flex;
+}
+
+@media screen and (width > 0) {
+  .pessoas {
+    flex-direction: column;
+    padding: 1rem;
+  }
+}
+
+@media screen and (width > 768px) {
+  .pessoas {
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3rem;
+  }
+}
